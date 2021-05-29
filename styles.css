@@ -1,0 +1,35 @@
+body {
+    font-family:'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin: 1em, 10em, ;
+    height: 3em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 3em;
+    font-size: small;
+}
+
+#Hébergements {
+    color:#0065FC;
+}
+
+#Inscription {
+    color:#0065FC;
+    font-weight: bold;
+}
