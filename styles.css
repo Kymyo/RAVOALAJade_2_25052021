@@ -1,35 +1,295 @@
-body {
+/* CLASSES GENERALES */
+html,body {
     font-family:'Raleway', sans-serif;
 }
 
-/* HEADER */
+.colorBlue {
+    color: #0065FC;
+}
 
-nav {
+.colorLightBlue {
+    color: #DEEBFF;
+}
+
+.colorGrey {
+    color: #F2F2F2;
+}
+
+.backBlue {
+    background-color: #0065FC;
+}
+
+.backLightBlue {
+    background-color: #DEEBFF;
+}
+
+.backGrey {
+    background-color: #F2F2F2;
+}
+
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav img {
-    margin: 1em, 10em, ;
-    height: 3em;
-}
-
-nav ul {
+.flexColumnCenter {
     display: flex;
-    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-nav li {
-    margin-right: 3em;
-    font-size: small;
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-#Hébergements {
-    color:#0065FC;
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#Inscription {
-    color:#0065FC;
+.decorationNone {
+    text-decoration: none;
+}
+
+.bordureNone {
+    border: none;
+}
+
+.textBold {
     font-weight: bold;
+}
+
+/* HEADER */
+
+    /* NAV */
+
+#sizeNAV {
+    height: 100px;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.sizeNav {
+    width: 45%;
+
+}
+
+.sizeLinks {
+    width: 140px;
+    height: 99px;
+}
+
+.colorNav2 {
+    color: black;
+}
+
+.bordureNav1 {
+    border-top: 1px solid blue;
+}
+
+.bordureNav23 {
+    border-top: 1px transparent;
+}
+
+/* BLOC1 AVEC BARRE DE RECHERCHE */
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+
+.iconMap {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+#searchBar {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.searchButton {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* FILTRES */
+
+.filtres {
+    display: flex;
+    align-items: center;
+}
+
+.margFiltres {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.margTitle {
+    margin-right: 20px;
+}
+
+.textIcons {
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.textIcons:hover > .filtresText {
+    color: #0065FC;
+}
+
+.textIcons:hover > .filtresIcons {
+    color: white;
+    background-color:#0065FC ;
+}
+
+.filtresText {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.filtresIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color:#DEEBFF; 
+}
+
+i.fas {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+/* INFO */
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+.parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+/* MAIN */
+
+/* Hebergements */
+
+.sizeHébergement {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.sizePopular {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.img1 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.img2 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.img3 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.img4 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.img5 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.img6 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 15px 0 0;
+}
+
+.blocsHébergement {
+    padding-left: 20px;
+    padding-right: 20px;
 }
