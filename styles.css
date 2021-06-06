@@ -235,6 +235,14 @@ i.fas {
     border-radius: 10px;
 }
 
+.bloc1 {
+    margin-bottom: 15px ;
+}
+
+.bloc2 {
+    margin-top: 15px;
+}
+
 .img1 {
     background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     width: 100%;
@@ -292,4 +300,67 @@ i.fas {
 .blocsHébergement {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.cubeHébergement {
+   width: 30%;
+   height: auto;
+   background-color: white;
+   padding: 1%;
+   border-radius: 20px; 
+}
+
+.detailsHébergement {
+    width: 90%;
+}
+
+/* Les plus POPULAIRES */
+
+.blocPopulaires {
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+
+.imgPopulaires1 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgPopulaires2 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 0 0 15px;
+}
+
+.imgPopulaires3 {
+    background-image: url("./Projet 2 - Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    width: 35%;
+    height: 160px;
+    background-size: cover;
+    background-position: center ;
+    border-radius: 15px 0 0 15px;
+}
+
+.cubePopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+
+.blocPop12 {
+    margin-bottom: 22px;
+
+}
+
+.detailsPopulaires {
+    width: 60%;
+    padding-left: 5%;
 }
