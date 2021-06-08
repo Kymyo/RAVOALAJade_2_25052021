@@ -22,11 +22,10 @@
                 <div><img id="logo" src="/Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="logo"></div>
                 <div class="flexAround sizeNav">
                     <div class="sizeLinks flexCenter bordureNav1"><a class="decorationNone colorBlue"
-                            href="#">Hébergements</a></div>
+                            href="#ancre1">Hébergements</a></div>
                     <div class="sizeLinks flexCenter bordureNav23"><a class="decorationNone colorNav2"
-                            href="#">Activités</a></div>
-                    <div class="sizeLinks flexCenter bordureNav23"><a class="decorationNone colorBlue"
-                            href="#">S'inscrire</a></div>
+                            href="#ancre2">Activités</a></div>
+                    <p class="textBold sizeLinks flexCenter bordureNav23 decorationNone colorBlue">S'inscrire</p>
                 </div>
             </div>
         </nav>
@@ -72,11 +71,11 @@
 
             <!-- HEBERGEMENTS -->
 
-            <div class="sizeHébergement backGrey blocsHébergement flexColumnAround">
+            <div id="ancre1" class="sizeHébergement backGrey blocsHébergement flexColumnAround">
                 <h2>Hébergements à Marseille</h2>
                 <div class="bloc1 flexBetween">
                     <div class="cubeHébergement flexColumnCenter">
-                        <div class="img1"></div>
+                        <a href="#"><img class="img1" src="./Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="image Auberge de la Cannebière"></a>
                         <div class="detailsHébergement">
                             <h3>Auberge de la Cannebière</h3>
                             <p>Nuit à partir de 25€</p>
@@ -84,7 +83,7 @@
                         </div>
                     </div>
                     <div class="cubeHébergement flexColumnCenter">
-                        <div class="img2"></div>
+                        <a href="#"><img class="img2" src="./Projet 2 - Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="image Hôtel du Port"></a>
                         <div class="detailsHébergement">
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de 52€</p>
@@ -92,7 +91,7 @@
                         </div>
                     </div>
                     <div class="cubeHébergement flexColumnCenter">
-                        <div class="img3"></div>
+                        <a href="#"><img class="img3" src="./Projet 2 - Reservia/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="image Hôtel les mouettes"></a>
                         <div class="detailsHébergement">
                             <h3>Hôtel les mouettes</h3>
                             <p>Nuit à partir de 76€</p>
@@ -126,7 +125,6 @@
                         </div>
                     </div>
                 </div>
-                <div></div>
                 <p class="textBold">Afficher plus</p>
             </div>
 
@@ -165,6 +163,85 @@
                 </div>
             </div>
         </section>
+
+        <!-- ACTIVITES -->
+
+        <section id="Activités">
+            <h2 id="ancre2">Activités à Marseille</h2>
+            <div class="blocActivités flexBetween">
+                <div class="cubeActivités14 flexColumnCenter">
+                    <div class="imgActivités1"></div>
+                    <div class="titleActivités">
+                        <h3>Vieux Port</h3>
+                    </div>
+                </div>
+
+                <div class="blocActivités2356 flexColumnBetween">
+                    <div class="cubeActivités2356 flexColumnCenter">
+                        <div class="imgActivités2"></div>
+                        <div class="titleActivités">
+                            <h3>Fort de Pomegues</h3>
+                        </div>
+                    </div>
+
+                    <div class="cubeActivités2356 flexColumnCenter">
+                        <div class="imgActivités3"></div>
+                        <div class="titleActivités">
+                            <h3>Iles du Frioul</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="cubeActivités14 flexColumnCenter">
+                    <div class="imgActivités4"></div>
+                    <div class="titleActivités">
+                        <h3>Parc National des Calanques</h3>
+                    </div>
+                </div>
+
+                <div class="blocActivités2356 flexColumnBetween">
+                    <div class="cubeActivités2356 flexColumnCenter">
+                        <div class="imgActivités5"></div>
+                        <div class="titleActivités">
+                            <h3>Notre-Dame-de-la-Garde</h3>
+                        </div>
+                    </div>
+
+                    <div class="cubeActivités2356 flexColumnCenter">
+                        <div class="imgActivités6"></div>
+                        <div class="titleActivités">
+                            <h3>Parc Longchamp</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+<!-- FOOTER -->
+
+    <footer class="flexAround">
+        <div id="footerApropos">
+            <h3>A propos</h3>
+            <ul>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>
+        </div>
+        <div id="footerHebergements">
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+            </ul>
+        </div>
+        <div id="footerAssistance">
+            <h3>Assistance</h3>
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </htmhl>
