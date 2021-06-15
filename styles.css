@@ -1,8 +1,17 @@
 /* CLASSES GENERALES */
-html,body {
+
+* {
     font-family:'Raleway', sans-serif;
+}
+
+header, main, nav {
     max-width: 1440px;
-    margin-left: 20px;
+    margin-left: 25px
+}
+
+.sections {
+    max-width: 1440px;
+    margin-left: 25px
 }
 
 .colorBlack {
@@ -94,17 +103,19 @@ html,body {
     /* NAV */
 
 #sizeNAV {
-    height: 100px;
+    height: 0 auto;
 }
 
 #logo {
     width: 120px;
     height: 50px;
-    margin-bottom: 10px;
+    margin-top: 0 auto;
+    display: flex;
+    
 }
 
 .sizeNav {
-    width: 45%;
+    width: 0 auto;
 
 }
 
@@ -219,6 +230,7 @@ i.fas {
 #info {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .parentIcon {
@@ -237,14 +249,14 @@ i.fas {
     flex: 2;
     height: 650px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .sizePopular {
     flex: 1;
     height: 650px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .bloc1 {
@@ -442,20 +454,17 @@ i.fas {
 
 /* FOOTER */
 
-footer {
-    width: 100%;
-    margin: auto;
+.footer {
+    height: 300px;
+    margin: 0;
+    margin-top: 100px;
     background-color: #F2F2F2;
 }
 
-#footerApropos {
-
+ul {
+    list-style-type: none;
 }
 
-#footerHebergements {
-
-}
-
-#footerAsssitance{
-
+.blocFooter {
+    height: 150px;
 }

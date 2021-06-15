@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2? family = Raleway: wght @ 100 & display = swap"
-        rel="feuille de style">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css3? family= Raleway & display=swap" rel="stylesheet ">
+
     <script src="https://kit.fontawesome.com/22ee4f7d9a.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -19,7 +19,7 @@
     <header>
         <nav id="sizeNAV">
             <div class="flexBetween">
-                <div><img id="logo" src="/Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="logo"></div>
+                <div class=""><img id="logo" src="/Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="logo"></div>
                 <div class="flexAround sizeNav">
                     <div class="sizeLinks flexCenter bordureNav1"><a class="decorationNone colorBlue"
                             href="#ancre1">Hébergements</a></div>
@@ -30,44 +30,45 @@
             </div>
         </nav>
     </header>
-    <section>
-        <div>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-        </div>
-        <div class="flexCenter bordureSearch">
-            <div class="iconMap backGrey flexCenter"><i class="fas fa-map-marker-alt"></i></div>
-            <div><input id="searchBar" class="flexCenter bordureNone paddingSearch" type="search"
-                    value="Marseille, France"></div>
-            <div class="backBlue flexCenter searchButton">Rechercher</div>
-        </div>
-
-        <!-- FILTRES -->
-
-        <div class="filtres margFiltres">
-            <div class="margTitle">
-                <p>Filtres</p>
-            </div>
-            <div class="textIcons flexBetween"><i class="fas fa-money-bill-wave filtresIcons"></i>
-                <div class="filtresText flexCenter">Economique</div>
-            </div>
-            <div class="textIcons flexBetween"><i class="fas fa-child filtresIcons"></i>
-                <div class="filtresText flexCenter">Familial</div>
-            </div>
-            <div class="textIcons flexBetween"><i class="fas fa-heart filtresIcons"></i>
-                <div class="filtresText flexCenter">Romantique</div>
-            </div>
-            <div class="textIcons flexBetween"><i class="fas fa-dog filtresIcons"></i>
-                <div class="filtresText flexCenter">Animaux autorisés</div>
-            </div>
-        </div>
-        <div id="info">
-            <div class="parentIcon flexCenter"><i class="fas fa-info colorBlue fa-xs"></i></div>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-    </section>
     <main>
-        <section class="flexAround">
+        <section class="sections">
+            <div>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div class="flexCenter bordureSearch">
+                <div class="iconMap backGrey flexCenter"><i class="fas fa-map-marker-alt"></i></div>
+                <div><input id="searchBar" class="flexCenter bordureNone paddingSearch" type="search"
+                        value="Marseille, France"></div>
+                <div class="backBlue flexCenter searchButton">Rechercher</div>
+            </div>
+
+            <!-- FILTRES -->
+
+            <div class="filtres margFiltres textBold">
+                <div class="margTitle">
+                    <p>Filtres</p>
+                </div>
+                <div class="textIcons flexBetween"><i class="fas fa-money-bill-wave filtresIcons"></i>
+                    <div class="filtresText flexCenter">Economique</div>
+                </div>
+                <div class="textIcons flexBetween"><i class="fas fa-child filtresIcons"></i>
+                    <div class="filtresText flexCenter">Familial</div>
+                </div>
+                <div class="textIcons flexBetween"><i class="fas fa-heart filtresIcons"></i>
+                    <div class="filtresText flexCenter">Romantique</div>
+                </div>
+                <div class="textIcons flexBetween"><i class="fas fa-dog filtresIcons"></i>
+                    <div class="filtresText flexCenter">Animaux autorisés</div>
+                </div>
+            </div>
+            <div id="info">
+                <div class="parentIcon flexCenter"><i class="fas fa-info colorBlue fa-xs"></i></div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+
+        <section class="flexAround sections">
 
             <!-- HEBERGEMENTS -->
 
@@ -243,7 +244,7 @@
         <!-- ACTIVITES -->
 
         <section id="Activités">
-            <h2 id="ancre2">Activités à Marseille</h2>
+            <h2 id="ancre2" class="sections">Activités à Marseille</h2>
             <div class="blocActivités flexBetween">
                 <a href="#" class="decorationNone colorBlack">
                     <div class="cubeActivités14 flexColumnCenter">
@@ -275,13 +276,15 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="decorationNone colorBlack"><div class="cubeActivités14 flexColumnCenter">
-                <img class="imgActivités4"
-                    src="./Projet 2 - Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                    alt="image des Calanques">
-                <div class="titleActivités">
-                    <h3>Parc National des Calanques</h3></a>
-                </div>
+            <a href="#" class="decorationNone colorBlack">
+                <div class="cubeActivités14 flexColumnCenter">
+                    <img class="imgActivités4"
+                        src="./Projet 2 - Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        alt="image des Calanques">
+                    <div class="titleActivités">
+                        <h3>Parc National des Calanques</h3>
+            </a>
+            </div>
             </div>
 
             <div class="blocActivités2356 flexColumnBetween">
@@ -309,28 +312,24 @@
 
     <!-- FOOTER -->
 
-    <footer class="flexAround">
-        <div id="footerApropos">
-            <h3>A propos</h3>
-            <ul>
-                <li>Fonctionnement du site</li>
-                <li>Conditions générales de vente</li>
-                <li>Données et confidentialité</li>
-            </ul>
-        </div>
-        <div id="footerHebergements">
-            <h3>Nos hébergements</h3>
-            <ul>
-                <li>Charte qualité</li>
-                <li>Soumettre votre hôtel</li>
-            </ul>
-        </div>
-        <div id="footerAssistance">
-            <h3>Assistance</h3>
-            <ul>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
+    <footer>
+        <div class="footer flexAround">
+            <div class="blocFooter">
+                <p class="textBold">A propos</p>
+                <p>Fonctionnement du site</p>
+                <p>Conditions générales de vente</p>
+                <p>Données et confidentialité</p>
+            </div>
+            <div class="blocFooter">
+                <p class="textBold">Nos hébergements</p>
+                <p>Charte qualité</p>
+                <p>Soumettre votre hôtel</p>
+            </div>
+            <div class="blocFooter">
+                <p class="textBold">Assistance</p>
+                <p>Centre d'aide</p>
+                <p>Nous contacter</p>
+            </div>
         </div>
     </footer>
 </body>
