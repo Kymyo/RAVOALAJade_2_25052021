@@ -468,3 +468,133 @@ ul {
 .blocFooter {
     height: 150px;
 }
+
+/* RESPONSIVE */
+
+@media only screen and (device-width:375px) and (device-height:667px) /* SMARTPHONES */ {
+  
+    
+
+    h1 {
+      font-size: 20px;
+    }
+  
+    /* HEADER */
+  
+    header {
+      margin: 0;
+      width: 100%;
+      padding-left: 5px;
+    }
+    .sizeNav {
+        display: grid;
+        padding-top: 5px;
+      }
+        
+      #logo {position: absolute;
+        top: 20px;
+        left: 30px;
+      }
+
+      /* HEADER MENU */
+    
+      .inscrire {
+        position: absolute;
+        right: 5px;
+        font-size: 20px;
+      }
+    
+      #sizeNAV {
+        display: flex;
+        width: 100%;     
+        border-bottom: 2px solid #f2f2f2;
+      
+    }
+    
+      header nav a:hover {
+        border-bottom: 2px solid #0065fc;
+        border-top: none;
+        padding-bottom: 5px;
+      }
+
+      .filtres {
+
+      }
+    
+      /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+    
+      
+      /* FILTRES */
+    
+    
+      .margFiltres {
+          
+      }
+      .titrefiltres {
+        margin-bottom: 10px;
+      }
+    
+      .filtres {
+        width: 50%;
+        margin-bottom: 10px;
+        display: grid;
+      }
+    
+      .familial {
+        position: absolute;
+        margin: 34px 0 0 55%;
+        width: 35%;
+      }
+    
+      /* HEBERGEMENTS ET POPULAIRES */
+    
+      .blocsHébergement {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      /* PARAMETRES HEBERGEMENTS */
+    
+      .sizeHébergements {
+        width: 100%;
+        background-color: white;
+        order: 2;
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+      }
+    
+    
+      .cubePopulaires {
+        width: 95%;
+        padding: 5px;
+        margin: 8px;
+        font-size: 14px;
+      }
+    
+      /* PARAMETRES HEBERGEMENTS POPULAIRES */
+    
+      .blocPopulaires {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        order: 1;
+        display: grid;
+      }
+    
+      /* PARAMETRES ACTIVITES */
+    
+      /* FOOTER*/
+    
+      .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .blocFooter {
+        
+      }
+    }
+    
+    
