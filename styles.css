@@ -177,7 +177,10 @@ body {
     flex-wrap: wrap;
     padding: 0;
   }
-  
+  .filters {
+    display: flex;
+    align-items: center;
+  }
   .filters ul li {
     display: inline;
     margin-left: 25px;
@@ -191,7 +194,6 @@ body {
   .filters ul li:hover {
     cursor: pointer;
     background: #DEEBFF;
-    transition-duration: 0.25s;
   }
   
   .filters ul li:hover .icon-filter {
@@ -201,7 +203,7 @@ body {
   .icon-filter {
     background-color: #DEEBFF;
     color: #0065fc;
-    padding: 18px;
+    padding: 15px;
     border-radius: 200px;
     margin-right: 15px;
   }
@@ -390,8 +392,8 @@ body {
     display: flex;
     margin: 0;
     background-color: white;
-    border-radius: 20px;
-    padding: 7px 0 7px 7px;
+    border-radius: 25px;
+    padding: 5px 0 5px 5px;
     box-shadow: 0px 0px 6px 0px #0000002e;
   }
   
@@ -399,8 +401,8 @@ body {
     display: flex;
     margin: 0;
     background-color: white;
-    border-radius: 20px;
-    padding: 7px 0 7px 7px;
+    border-radius: 25px;
+    padding: 5px 0 5px 5px;
     box-shadow: 0px 0px 6px 0px #0000002e;
   }
   
@@ -408,8 +410,8 @@ body {
     display: flex;
     margin: 0;
     background-color: white;
-    border-radius: 20px;
-    padding: 7px 0 7px 7px;
+    border-radius: 25px;
+    padding: 5px 0 5px 5px;
     box-shadow: 0px 0px 6px 0px #0000002e;
   }
   
@@ -545,6 +547,21 @@ body {
 
   /* Media Queries */
   @media screen and (max-width: 1440px) {
+   
+    .filters {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .icon-filter{
+      padding-left: -2px;
+    }
+    #title-h2 {
+      margin-bottom: 0.2em;
+      margin-left: 0.5em ;
+      font-size: 20px;
+    }
+   
     .blocs {
       grid-template-columns: 1fr;
       grid-template-rows: 0.5fr 1fr;
@@ -589,8 +606,9 @@ body {
     }
     
     .most-populars i {
-      font-size: 26px;
+      font-size: 16px;
     }
+
     .most-popular {
       background-color: grey;
       height: auto;
@@ -600,7 +618,7 @@ body {
       width: 30%;
       height: 100%;
       background-size: cover;
-      border-radius: 25px 0 0 25px;
+      border-radius: 20px 0 0 20px;
     }
   
     .most-popular-case-img img {
@@ -746,6 +764,7 @@ body {
     }
     .most-popular-case-img img {
       min-width: 145px;
+     
     }
     .marseille-activities {
       display: grid;
